@@ -677,7 +677,7 @@ public class BGABanner extends RelativeLayout implements BGAViewPager.AutoPlayDe
 
         // 处理 RecyclerView 中从对用户不可见变为可见时卡顿的问题
         if (!mIsFirstInvisible && mAutoPlayAble && mViewPager != null && getItemCount() > 0) {
-            switchToNextPage();
+//            switchToNextPage();
         }
         mIsFirstInvisible = false;
     }
